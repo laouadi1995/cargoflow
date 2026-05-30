@@ -1,0 +1,17 @@
+# .NET
+backend/**/bin/
+backend/**/obj/
+backend/**/*.user
+
+# Secrets — ne jamais push le mot de passe DB
+backend/**/appsettings.Development.json
+
+# Node / Expo
+mobile/**/node_modules/
+mobile/**/.expo/
+mobile/**/dist/
+mobile/**/.env
+
+# OS
+.DS_Store
+Thumbs.db
