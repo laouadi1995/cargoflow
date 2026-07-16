@@ -1,0 +1,14 @@
+.git
+.gitignore
+.vs
+.vscode
+bin
+obj
+*.log
+node_modules
+.next
+dist
+build
+.env.local
+.env.*.local
+appsettings.Development.json

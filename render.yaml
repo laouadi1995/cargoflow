@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: cargoflow-api
+    runtime: dotnet
+    runtimeVersion: 10.0
+    buildCommand: dotnet build --configuration Release backend/CargoFlow.Api/CargoFlow.Api.csproj
+    startCommand: dotnet backend/CargoFlow.Api/bin/Release/net10.0/CargoFlow.Api.dll
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+      - key: ASPNETCORE_URLS
+        value: http://0.0.0.0:10000
+    healthCheckPath: /api/auth/test
+    numInstances: 1
+    plan: free
