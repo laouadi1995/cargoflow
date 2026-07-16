@@ -72,15 +72,11 @@ app.UseStaticFiles();
 
 app.MapControllers();
 
-// Listen on localhost — use Railway PORT env var if available, fallback to 5009
-var port = Environment.GetEnvironmentVariable("PORT") ?? "5009";
-app.Urls.Add($"http://localhost:{port}");
-app.Urls.Add($"http://127.0.0.1:{port}");
-
 try
 {
+    var port = Environment.GetEnvironmentVariable("ASPNETCORE_URLS")?.Split(":")?.Last() ?? "5009";
     Console.WriteLine("\n✅ Backend started successfully!");
-    Console.WriteLine($"📱 Listening on: http://localhost:{port}");
+    Console.WriteLine($"📱 Listening on port: {port}");
     Console.WriteLine($"🔗 To test: http://localhost:{port}/api/auth/test\n");
     app.Run();
 }
