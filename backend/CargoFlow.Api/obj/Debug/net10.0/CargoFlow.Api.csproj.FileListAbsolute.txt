@@ -124,3 +124,9 @@ C:\Users\Laoua\OneDrive\Bureau\cargoFlow\backend\CargoFlow.Api\bin\Debug\net10.0
 C:\Users\Laoua\OneDrive\Bureau\cargoFlow\backend\CargoFlow.Api\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Laoua\OneDrive\Bureau\cargoFlow\backend\CargoFlow.Api\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Laoua\OneDrive\Bureau\cargoFlow\backend\CargoFlow.Api\bin\Debug\net10.0\CargoFlow.Api.staticwebassets.runtime.json
+C:\Users\Laoua\OneDrive\Bureau\cargoFlow\backend\CargoFlow.Api\bin\Debug\net10.0\UglyToad.PdfPig.dll
+C:\Users\Laoua\OneDrive\Bureau\cargoFlow\backend\CargoFlow.Api\bin\Debug\net10.0\UglyToad.PdfPig.Core.dll
+C:\Users\Laoua\OneDrive\Bureau\cargoFlow\backend\CargoFlow.Api\bin\Debug\net10.0\UglyToad.PdfPig.Fonts.dll
+C:\Users\Laoua\OneDrive\Bureau\cargoFlow\backend\CargoFlow.Api\bin\Debug\net10.0\UglyToad.PdfPig.Tokenization.dll
+C:\Users\Laoua\OneDrive\Bureau\cargoFlow\backend\CargoFlow.Api\bin\Debug\net10.0\UglyToad.PdfPig.Tokens.dll
+C:\Users\Laoua\OneDrive\Bureau\cargoFlow\backend\CargoFlow.Api\obj\Debug\net10.0\CargoFlow.Api.sourcelink.json
